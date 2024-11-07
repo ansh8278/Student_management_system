@@ -13,4 +13,14 @@ CREATE TABLE students (
 
 2. Install mysql connector on python terminal or vs code
 
-3. 
+3. Replace host user password database according to your system
+
+  # Connect to MySQL database
+def connect_db():
+    return mysql.connector.connect(
+        host="localhost",
+        user="root",  
+        password="@Ansh12345678",  
+        database="student_db"
+    )
+
